@@ -1,0 +1,387 @@
+[
+    {
+        "label": "settings",
+        "importPath": "Real_time_sentiment_analysis_app",
+        "description": "Real_time_sentiment_analysis_app",
+        "isExtraImport": true,
+        "detail": "Real_time_sentiment_analysis_app",
+        "documentation": {}
+    },
+    {
+        "label": "credentials",
+        "importPath": "Real_time_sentiment_analysis_app",
+        "description": "Real_time_sentiment_analysis_app",
+        "isExtraImport": true,
+        "detail": "Real_time_sentiment_analysis_app",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "tweepy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tweepy",
+        "description": "tweepy",
+        "detail": "tweepy",
+        "documentation": {}
+    },
+    {
+        "label": "Stream",
+        "importPath": "tweepy",
+        "description": "tweepy",
+        "isExtraImport": true,
+        "detail": "tweepy",
+        "documentation": {}
+    },
+    {
+        "label": "OAuthHandler",
+        "importPath": "tweepy",
+        "description": "tweepy",
+        "isExtraImport": true,
+        "detail": "tweepy",
+        "documentation": {}
+    },
+    {
+        "label": "mysql.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql.connector",
+        "description": "mysql.connector",
+        "detail": "mysql.connector",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "TextBlob",
+        "importPath": "textblob",
+        "description": "textblob",
+        "isExtraImport": true,
+        "detail": "textblob",
+        "documentation": {}
+    },
+    {
+        "label": "dash",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dash",
+        "description": "dash",
+        "detail": "dash",
+        "documentation": {}
+    },
+    {
+        "label": "Output",
+        "importPath": "dash.dependencies",
+        "description": "dash.dependencies",
+        "isExtraImport": true,
+        "detail": "dash.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "dash.dependencies",
+        "description": "dash.dependencies",
+        "isExtraImport": true,
+        "detail": "dash.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "dash_core_components",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dash_core_components",
+        "description": "dash_core_components",
+        "detail": "dash_core_components",
+        "documentation": {}
+    },
+    {
+        "label": "dash_html_components",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dash_html_components",
+        "description": "dash_html_components",
+        "detail": "dash_html_components",
+        "documentation": {}
+    },
+    {
+        "label": "plotly",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly",
+        "description": "plotly",
+        "detail": "plotly",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.graph_objs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.graph_objs",
+        "description": "plotly.graph_objs",
+        "detail": "plotly.graph_objs",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "platform",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "platform",
+        "description": "platform",
+        "detail": "platform",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "StreamListener",
+        "importPath": "tweepy.streaming",
+        "description": "tweepy.streaming",
+        "isExtraImport": true,
+        "detail": "tweepy.streaming",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "SentimentIntensityAnalyzer",
+        "importPath": "vaderSentiment.vaderSentiment",
+        "description": "vaderSentiment.vaderSentiment",
+        "isExtraImport": true,
+        "detail": "vaderSentiment.vaderSentiment",
+        "documentation": {}
+    },
+    {
+        "label": "unidecode",
+        "importPath": "unidecode",
+        "description": "unidecode",
+        "isExtraImport": true,
+        "detail": "unidecode",
+        "documentation": {}
+    },
+    {
+        "label": "MyStreamListener",
+        "kind": 6,
+        "importPath": "main_etl",
+        "description": "main_etl",
+        "peekOfCode": "class MyStreamListener(tweepy.StreamListener):\n    \"\"\"\n    Tweets are known as “status updates”. So the Status class in tweepy has properties describing the tweet.\n    https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object.html\n    \"\"\"\n    def on_status(self, status):\n        \"\"\"\n        Extract info from tweets\n        \"\"\"\n        if status.retweeted:",
+        "detail": "main_etl",
+        "documentation": {}
+    },
+    {
+        "label": "clean_tweet",
+        "kind": 2,
+        "importPath": "main_etl",
+        "description": "main_etl",
+        "peekOfCode": "def clean_tweet(self, tweet):\n    \"\"\"\n    Use sumple regex statements to clean tweet text by removing links and special characters\n    \"\"\"\n    return ' '.join(re.sub(r\"(@[A-Za-z0-9]+)|([^0-9A-Za-z \\t])|(\\w+:\\/\\/\\S+)\", \" \", tweet).split())\ndef deEmojify(text):\n    \"\"\"\n    Strip all non-ASCII characters to remove emoji characters\n    \"\"\"\n    if text:",
+        "detail": "main_etl",
+        "documentation": {}
+    },
+    {
+        "label": "deEmojify",
+        "kind": 2,
+        "importPath": "main_etl",
+        "description": "main_etl",
+        "peekOfCode": "def deEmojify(text):\n    \"\"\"\n    Strip all non-ASCII characters to remove emoji characters\n    \"\"\"\n    if text:\n        return text.encode('ascii', 'ignore').decode('ascii')\n    else:\n        return None\nmydb = mysql.connector.connect(\n    host=\"localhost\",",
+        "detail": "main_etl",
+        "documentation": {}
+    },
+    {
+        "label": "mydb",
+        "kind": 5,
+        "importPath": "main_etl",
+        "description": "main_etl",
+        "peekOfCode": "mydb = mysql.connector.connect(\n    host=\"localhost\",\n    user=\"waleOpakunle\",\n    passwd=\"******\", ## replace with your db details\n    database=\"TwitterDB\",\n    charset='utf8'\n)\nif mydb.is_connected():\n    '''\n    Check if this table exits. If not, then create a new one.",
+        "detail": "main_etl",
+        "documentation": {}
+    },
+    {
+        "label": "update_graph_scatter",
+        "kind": 2,
+        "importPath": "Sentiment_analysis_gui",
+        "description": "Sentiment_analysis_gui",
+        "peekOfCode": "def update_graph_scatter(sentiment_term):\n    try:\n        conn = sqlite3.connect('twitter.db')\n        c = conn.cursor()\n        df = pd.read_sql(\"SELECT * FROM sentiment WHERE tweet LIKE ? ORDER BY unix DESC LIMIT 300\", conn,\n                         params=('%' + sentiment_term + '%',))\n        df.sort_values('unix', inplace=True)\n        df['sentiment_smoothed'] = df['sentiment'].rolling(int(len(df) / 2)).mean()\n        df['date'] = pd.to_datetime(df['unix'], unit='ms')\n        df.set_index('date', inplace=True)",
+        "detail": "Sentiment_analysis_gui",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Sentiment_analysis_gui",
+        "description": "Sentiment_analysis_gui",
+        "peekOfCode": "app = dash.Dash(__name__)\napp.layout = html.Div(\n    [html.H2('Live Twitter Sentiment'),\n     dcc.Input(id='sentiment_term', value='StopRobbingUs', type='text'),\n     dcc.Graph(id='live-graph', animate=False),\n     dcc.Interval(\n         id='graph-update',\n         interval=1 * 1000\n     ),\n     ]",
+        "detail": "Sentiment_analysis_gui",
+        "documentation": {}
+    },
+    {
+        "label": "app.layout",
+        "kind": 5,
+        "importPath": "Sentiment_analysis_gui",
+        "description": "Sentiment_analysis_gui",
+        "peekOfCode": "app.layout = html.Div(\n    [html.H2('Live Twitter Sentiment'),\n     dcc.Input(id='sentiment_term', value='StopRobbingUs', type='text'),\n     dcc.Graph(id='live-graph', animate=False),\n     dcc.Interval(\n         id='graph-update',\n         interval=1 * 1000\n     ),\n     ]\n)",
+        "detail": "Sentiment_analysis_gui",
+        "documentation": {}
+    },
+    {
+        "label": "TRACK_WORDS",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "TRACK_WORDS = ['StopRobbingUs']\nTABLE_NAME = \"SARS\"\nTABLE_ATTRIBUTES = \"id_str VARCHAR(255), created_at DATETIME, text VARCHAR(255),\" \\\n                   \"polarity INT, subjectivity INT, \" \\\n                   \"user_created_at VARCHAR(255), user_name VARCHAR(255), user_location VARCHAR(255), \" \\\n                   \"user_description VARCHAR(255), user_followers_count INT, longitude DOUBLE, latitude DOUBLE, \" \\\n                   \"retweet_count INT, favorite_count INT \"",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "TABLE_NAME",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "TABLE_NAME = \"SARS\"\nTABLE_ATTRIBUTES = \"id_str VARCHAR(255), created_at DATETIME, text VARCHAR(255),\" \\\n                   \"polarity INT, subjectivity INT, \" \\\n                   \"user_created_at VARCHAR(255), user_name VARCHAR(255), user_location VARCHAR(255), \" \\\n                   \"user_description VARCHAR(255), user_followers_count INT, longitude DOUBLE, latitude DOUBLE, \" \\\n                   \"retweet_count INT, favorite_count INT \"",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "TABLE_ATTRIBUTES",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "TABLE_ATTRIBUTES = \"id_str VARCHAR(255), created_at DATETIME, text VARCHAR(255),\" \\\n                   \"polarity INT, subjectivity INT, \" \\\n                   \"user_created_at VARCHAR(255), user_name VARCHAR(255), user_location VARCHAR(255), \" \\\n                   \"user_description VARCHAR(255), user_followers_count INT, longitude DOUBLE, latitude DOUBLE, \" \\\n                   \"retweet_count INT, favorite_count INT \"",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "listener",
+        "kind": 6,
+        "importPath": "twitterLive",
+        "description": "twitterLive",
+        "peekOfCode": "class listener(StreamListener):\n    def on_data(self, data):\n        try:\n            data = json.loads(data)\n            tweet = unidecode(data['text'])\n            time_ms = data['timestamp_ms']\n            vs = analyzer.polarity_scores(tweet)\n            sentiment = vs['compound']\n            print(time_ms, sentiment)\n            c.execute(\"INSERT INTO sentiment (unix, tweet, sentiment) VALUES (?, ?, ?)\",",
+        "detail": "twitterLive",
+        "documentation": {}
+    },
+    {
+        "label": "create_table",
+        "kind": 2,
+        "importPath": "twitterLive",
+        "description": "twitterLive",
+        "peekOfCode": "def create_table():\n    try:\n        c.execute(\"CREATE TABLE IF NOT EXISTS sentiment(unix REAL, tweet TEXT, sentiment REAL)\")\n        c.execute(\"CREATE INDEX fast_unix ON sentiment(unix)\")\n        c.execute(\"CREATE INDEX fast_tweet ON sentiment(tweet)\")\n        c.execute(\"CREATE INDEX fast_sentiment ON sentiment(sentiment)\")\n        conn.commit()\n    except Exception as e:\n        print(str(e))\ncreate_table()",
+        "detail": "twitterLive",
+        "documentation": {}
+    },
+    {
+        "label": "analyzer",
+        "kind": 5,
+        "importPath": "twitterLive",
+        "description": "twitterLive",
+        "peekOfCode": "analyzer = SentimentIntensityAnalyzer()\n# consumer key, consumer secret, access token, access secret.\nckey = \"AeiEWXqrh9TEZpMK6D3JXgYeR\"\ncsecret = \"IA3ACrYMSOZqcOcWOguQBwOsy47VZCEvGLBYauVr0iWbO4Dehr\"\natoken = \"381209092-08RQEfpldp6hoZTqCZu2LztCZ6Ub6y1YII1OUkxa\"\nasecret = \"WkZaxwbeZmmUWOZR7tM5wk2CePTuI4LF9laV04NvayXor\"\nconn = sqlite3.connect('twitter.db')\nc = conn.cursor()\ndef create_table():\n    try:",
+        "detail": "twitterLive",
+        "documentation": {}
+    },
+    {
+        "label": "ckey",
+        "kind": 5,
+        "importPath": "twitterLive",
+        "description": "twitterLive",
+        "peekOfCode": "ckey = \"AeiEWXqrh9TEZpMK6D3JXgYeR\"\ncsecret = \"IA3ACrYMSOZqcOcWOguQBwOsy47VZCEvGLBYauVr0iWbO4Dehr\"\natoken = \"381209092-08RQEfpldp6hoZTqCZu2LztCZ6Ub6y1YII1OUkxa\"\nasecret = \"WkZaxwbeZmmUWOZR7tM5wk2CePTuI4LF9laV04NvayXor\"\nconn = sqlite3.connect('twitter.db')\nc = conn.cursor()\ndef create_table():\n    try:\n        c.execute(\"CREATE TABLE IF NOT EXISTS sentiment(unix REAL, tweet TEXT, sentiment REAL)\")\n        c.execute(\"CREATE INDEX fast_unix ON sentiment(unix)\")",
+        "detail": "twitterLive",
+        "documentation": {}
+    },
+    {
+        "label": "csecret",
+        "kind": 5,
+        "importPath": "twitterLive",
+        "description": "twitterLive",
+        "peekOfCode": "csecret = \"IA3ACrYMSOZqcOcWOguQBwOsy47VZCEvGLBYauVr0iWbO4Dehr\"\natoken = \"381209092-08RQEfpldp6hoZTqCZu2LztCZ6Ub6y1YII1OUkxa\"\nasecret = \"WkZaxwbeZmmUWOZR7tM5wk2CePTuI4LF9laV04NvayXor\"\nconn = sqlite3.connect('twitter.db')\nc = conn.cursor()\ndef create_table():\n    try:\n        c.execute(\"CREATE TABLE IF NOT EXISTS sentiment(unix REAL, tweet TEXT, sentiment REAL)\")\n        c.execute(\"CREATE INDEX fast_unix ON sentiment(unix)\")\n        c.execute(\"CREATE INDEX fast_tweet ON sentiment(tweet)\")",
+        "detail": "twitterLive",
+        "documentation": {}
+    },
+    {
+        "label": "atoken",
+        "kind": 5,
+        "importPath": "twitterLive",
+        "description": "twitterLive",
+        "peekOfCode": "atoken = \"381209092-08RQEfpldp6hoZTqCZu2LztCZ6Ub6y1YII1OUkxa\"\nasecret = \"WkZaxwbeZmmUWOZR7tM5wk2CePTuI4LF9laV04NvayXor\"\nconn = sqlite3.connect('twitter.db')\nc = conn.cursor()\ndef create_table():\n    try:\n        c.execute(\"CREATE TABLE IF NOT EXISTS sentiment(unix REAL, tweet TEXT, sentiment REAL)\")\n        c.execute(\"CREATE INDEX fast_unix ON sentiment(unix)\")\n        c.execute(\"CREATE INDEX fast_tweet ON sentiment(tweet)\")\n        c.execute(\"CREATE INDEX fast_sentiment ON sentiment(sentiment)\")",
+        "detail": "twitterLive",
+        "documentation": {}
+    },
+    {
+        "label": "asecret",
+        "kind": 5,
+        "importPath": "twitterLive",
+        "description": "twitterLive",
+        "peekOfCode": "asecret = \"WkZaxwbeZmmUWOZR7tM5wk2CePTuI4LF9laV04NvayXor\"\nconn = sqlite3.connect('twitter.db')\nc = conn.cursor()\ndef create_table():\n    try:\n        c.execute(\"CREATE TABLE IF NOT EXISTS sentiment(unix REAL, tweet TEXT, sentiment REAL)\")\n        c.execute(\"CREATE INDEX fast_unix ON sentiment(unix)\")\n        c.execute(\"CREATE INDEX fast_tweet ON sentiment(tweet)\")\n        c.execute(\"CREATE INDEX fast_sentiment ON sentiment(sentiment)\")\n        conn.commit()",
+        "detail": "twitterLive",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "twitterLive",
+        "description": "twitterLive",
+        "peekOfCode": "conn = sqlite3.connect('twitter.db')\nc = conn.cursor()\ndef create_table():\n    try:\n        c.execute(\"CREATE TABLE IF NOT EXISTS sentiment(unix REAL, tweet TEXT, sentiment REAL)\")\n        c.execute(\"CREATE INDEX fast_unix ON sentiment(unix)\")\n        c.execute(\"CREATE INDEX fast_tweet ON sentiment(tweet)\")\n        c.execute(\"CREATE INDEX fast_sentiment ON sentiment(sentiment)\")\n        conn.commit()\n    except Exception as e:",
+        "detail": "twitterLive",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "twitterLive",
+        "description": "twitterLive",
+        "peekOfCode": "c = conn.cursor()\ndef create_table():\n    try:\n        c.execute(\"CREATE TABLE IF NOT EXISTS sentiment(unix REAL, tweet TEXT, sentiment REAL)\")\n        c.execute(\"CREATE INDEX fast_unix ON sentiment(unix)\")\n        c.execute(\"CREATE INDEX fast_tweet ON sentiment(tweet)\")\n        c.execute(\"CREATE INDEX fast_sentiment ON sentiment(sentiment)\")\n        conn.commit()\n    except Exception as e:\n        print(str(e))",
+        "detail": "twitterLive",
+        "documentation": {}
+    }
+]
